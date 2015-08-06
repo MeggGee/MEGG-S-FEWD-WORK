@@ -1,0 +1,187 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+section.landing { 
+  color: rgb(255,255,255);
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+h1 {
+font-size: 24px;
+margin:0px 15px 0 50px;
+padding-top: 20px;
+}
+
+
+.landing h2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#button{
+  background-color: rgb(249,228,46);
+  margin: 0 auto;
+  width: 150px;
+  height:30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+#button a {
+  text-decoration: none;
+  color: rgb(6,48,72);
+  font-size: 18px;
+  font-weight: bold;
+}
+  
+  .Benefits{
+    width: 500px;
+    color: rgb(3,48,72);
+
+    }
+
+.Benefits h2{
+font-size: 20px;
+margin:20px 15px 0 50px;
+}
+
+.Benefits p {
+margin:20px 15px 15px 50px;
+}
+
+.Benefits ul{
+  list-style: disc;
+margin: 20px 0 15px 100px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 295px;
+  color: rgb(255,255,255);
+  text-align: center;
+  font-family: Light Italic;
+  font-size: 18px;
+  padding-top: 100px;
+}
+
+.testimonial p {
+  
+margin: 0 auto;
+width: 300px;
+color: rgb(255,255,255);
+}
+
+.signUp {
+background-color: rgb(249,228,46);
+height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#SignUpButton {
+background-color: rgb(4,48,73);
+color: rgb(241,240,242);
+font-size: 12px;
+display: block;
+margin: 0 auto;
+} 
+
+footer {
+color: white;
+background-color: rgb(18,18,17);
+text-align: center;
+}
+footer h2{
+color: rgb(249,228,46);
+font-size: 20px;
+text-align: center;
+padding: 10px;
+font-weight: bolder;
+}
+footer img{
+margin-left: 5px;
+margin-right:5px;
+}
+footer small{
+display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

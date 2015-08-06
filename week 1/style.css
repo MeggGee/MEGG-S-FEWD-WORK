@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+	color: black;
+    font-family: 'Montserrat', sans-serif;
+    background: url(surf-455761_1920.jpg);
+    background-size: cover;
+
+	}
+p {
+	width: 800px;
+	margin: 0 auto;
+}
+a {
+	color: black;
+}
+section {
+	background-color: rgba(248,245,214,.3);
+	width: 800px;
+	margin: 115px auto;
+}
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='te
